@@ -1,3 +1,7 @@
+# Create Virtual Environment and activate 
+python3 -m venv physics_rl
+source physics_rl/bin/activate
+
 # Physics-Informed Model-Based RL
 
 Published at <a href="https://l4dc.seas.upenn.edu/" target="_blank">Learning for Dynamics & Control Conference (L4DC), 2023</a>.

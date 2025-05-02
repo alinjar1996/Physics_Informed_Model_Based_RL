@@ -75,6 +75,10 @@ class BaseEnv:
     def reset(self):
         self.reset_state()
         self.wrap_state()
+        # print("Inertials:", self.inertials)
+        # print("State:", self.state)
+        # print("Input to kinematics:", self.inertials + self.state.tolist())
+
         self.geo = self.kinematics(self.inertials+self.state.tolist())
         self.t = 0
 
